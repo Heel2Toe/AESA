@@ -1,4 +1,3 @@
-import "./App.css";
 import { Toaster } from "react-hot-toast";
 import Home from "./components/home";
 import Contact from "./components/contact";
