@@ -1,4 +1,3 @@
-import Navbar from "./components/navbar/navbar";
 import "./App.css";
 import { Toaster } from "react-hot-toast";
 import Home from "./components/home";
