@@ -12,7 +12,7 @@ const StoreHome = () => {
      </div>
 
      <div className="relative h-[600px] w-[600px]">
-       <img src="/src/assets/tshirt.png" className="h-full w-full"/>
+       <img src="./assets/tshirt.png" className="h-full w-full"/>
      </div>
         </div>
      );

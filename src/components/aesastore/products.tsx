@@ -1,11 +1,11 @@
 import ProductCard from "./product-card";
 
 const srcs = [
-    "/src/assets/product1.jpg",
-    "/src/assets/product2.jpg",
-    "/src/assets/product3.jpg",
-    "/src/assets/product4.jpg",
-    "/src/assets/product5.jpg",
+    "./assets/product1.jpg",
+    "./assets/product2.jpg",
+    "./assets/product3.jpg",
+    "./assets/product4.jpg",
+    "./assets/product5.jpg",
 ]
 
 const Products = () => {

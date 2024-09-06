@@ -1,17 +1,17 @@
 export const centers = [
   {
     name: "Footblitz",
-    picture: "/src/assets/footblitz.jpg",
+    picture: "./assets/footblitz.jpg",
     location: "Edapally, Changampuzha park",
   },
   {
     name: "Playmakers",
-    picture: "/src/assets/playmakers.jpg",
+    picture: "./assets/playmakers.jpg",
     location: "Kaloor, JLN Stadium",
   },
   {
     name: "Koonamthai",
-    picture: "/src/assets/koonamthai.jpg",
+    picture: "./assets/koonamthai.jpg",
     location: "Museum",
   },
 ];
