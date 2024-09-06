@@ -3,7 +3,7 @@ import { MdOutlineSportsSoccer, MdOutlineSupportAgent } from "react-icons/md";
 
 const PromoStore = () => {
   return (
-    <div className="h-[500px] w-full bg-cyan-900 flex space-x-10 justify-center items-center p-2 text-cyan-900">
+    <div className="h-[500px] w-full bg-[#244F67] flex space-x-10 justify-center items-center p-2 text-[#244F67]">
 
       <div className="h-[350px] w-[330px] border border-bl flex-col space-y-2 p-4 bg-blue-100">
       <MdOutlineSupportAgent className="text-7xl"/>

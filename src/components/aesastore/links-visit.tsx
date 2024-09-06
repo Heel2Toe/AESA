@@ -10,7 +10,7 @@ const LinksVisit = () => {
   };
 
   return (
-    <div className="self-end border border-cyan-900 items-center w-40 p-5 rounded-md flex justify-between">
+    <div className="self-end border border-[#244F67] items-center w-40 p-5 rounded-md flex justify-between">
       <motion.div
         className="cursor-pointer"
         initial={{ y: 75, opacity: 0 }}

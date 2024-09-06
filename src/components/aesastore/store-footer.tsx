@@ -3,7 +3,7 @@ import LinksVisit from "./links-visit";
 const StoreFooter = () => {
     return ( 
         <div id="about" className="w-full h-[400px] bg-blue-100 flex justify-between items-center p-6 overflow-hidden">
-        <div className="h-full w-[500px] flex flex-col space-y-6 text-cyan-900">
+        <div className="h-full w-[500px] flex flex-col space-y-6 text-[#244F67]">
             <h1 className="sporty-font text-7xl">ABOUT US</h1>
             <p className="self-end">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ipsum ante, eget venenatis libero tempus ac. Etiam sit amet magna turpis. 

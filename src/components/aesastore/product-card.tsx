@@ -3,7 +3,7 @@ import { AiFillAmazonCircle } from "react-icons/ai";
 
 const ProductCard = ({ image }: { image: string }) => {
   return (
-    <div className="relative h-[480px] w-[330px] bg-cyan-900 p-4 flex flex-col space-y-2 items-center group">
+    <div className="relative h-[480px] w-[330px] bg-[#244F67] p-4 flex flex-col space-y-2 items-center group">
       <Cellotape position="br" />
       <Cellotape position="tl" />
 
