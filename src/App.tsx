@@ -9,6 +9,13 @@ import Products from "./components/aesastore/products";
 import PromoStore from "./components/aesastore/promo-store";
 import StoreFooter from "./components/aesastore/store-footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import StoreNav from "./components/aesastore/store-nav";
+
+const navbarProps = [
+  {title : 'HOME', sectionnav: '#home'},
+  {title : 'CENTERS', sectionnav: '#centers'},
+  {title : 'CONTACT', sectionnav: '#contact'},
+]
 
 function App() {
   return (
@@ -21,7 +28,7 @@ function App() {
             path="/"
             element={
               <>
-                <Navbar />
+                <StoreNav page="school" elements={navbarProps}/>
                 <Home />
                 <Centers />
                 <Contact />

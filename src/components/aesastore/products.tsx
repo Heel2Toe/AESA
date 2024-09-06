@@ -13,8 +13,8 @@ const Products = () => {
         <div id="products" className="h-auto w-full bg-blue-100 flex flex-col p-4 py-8 space-y-10">
             <h1 className="sporty-font text-5xl text-[#244F67]">OUR PRODUCTS</h1>
             <div className="h-auto w-full grid grid-cols-3 gap-7 justify-items-center pb-2">
-             {srcs.map((item)=>(
-                <ProductCard image={item}/>
+             {srcs.map((item, key)=>(
+                <ProductCard key={key} image={item}/>
              ))}
             </div>
         </div>

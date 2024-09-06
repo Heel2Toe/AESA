@@ -5,7 +5,7 @@ const Home = () => {
         <motion.div 
         className="h-[700px] w-full bg-blue-100 flex justify-center items-center p-4 overflow-hidden">
 
-          <div className="relative mb-5 flex items-center justify-center border-[16px] border-white
+          <div className="relative mb-5 flex items-center justify-center border-[16px] border-blue-200
                           rounded-full h-[400px] w-[400px] md:h-[600px] md:w-[600px]">
                             <motion.div 
                             initial={{
@@ -27,8 +27,8 @@ const Home = () => {
                                 duration: .7
                               }
                             }}
-                            className="absolute h-4 w-[225%] bg-white -rotate-[60deg]"/>
-            <p className="text-[100px] md:text-[200px] font-extrabold text-blue-300 mb-5 z-10">AESA</p>
+                            className="absolute h-4 w-[325%] bg-blue-200 -rotate-[60deg]"/>
+            <p className="text-[100px] md:text-[200px] font-extrabold text-[#244F67] mb-5 z-10">AESA</p>
           </div>
        </motion.div>
      );
