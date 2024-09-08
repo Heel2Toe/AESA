@@ -30,7 +30,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="w-full h-[400px] bg-gray-900 flex justify-between items-center p-6 overflow-hidden">
+    <div id="contact" className="w-full h-[400px] bg-gray-900 flex justify-between items-center p-6 overflow-hidden">
       <div className="flex flex-col space-y-6">
         <h1 className="font-extrabold  text-4xl text-white">
           Feel free to ask anything<span className="text-blue-400">.</span>
@@ -56,7 +56,7 @@ const Contact = () => {
 
       </div>
 
-      <div className={`h-[500px] w-[500px] rounded-full border flex justify-center items-center border-gray-800`}>
+      <div className={`h-[500px] w-[500px] rounded-full border-8 flex justify-center items-center border-gray-800`}>
         <div className={`relative h-80 w-80 rounded-full flex justify-center items-center bg-gray-800`}>
           <div className={`h-60 w-60 rounded-full bg-gray-900`}/>
           <div className={`absolute h-[500px] w-4 -rotate-[60deg] bg-gray-800`}/>

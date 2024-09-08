@@ -17,7 +17,7 @@ const navbarProps = [
 
 function App() {
   return (
-    <div className="relative h-full w-full">
+    <div className="relative h-full w-auto">
       <Toaster position="top-right" />
       <Router>
         <Routes>
@@ -39,7 +39,7 @@ function App() {
             element={
               <>
                 <StoreHome />
-                <Products />
+                <Products /> 
                 <PromoStore />
                 <StoreFooter />
               </>

@@ -10,7 +10,7 @@ const LinksVisit = () => {
   };
 
   return (
-    <div className="self-end border border-[#244F67] items-center w-40 p-5 rounded-md flex justify-between">
+    <div className="self-end border border-[#244F67] items-center w-32 p-3 text-xs sm:w-40 sm:p-5 rounded-md flex justify-between">
       <motion.div
         className="cursor-pointer"
         initial={{ y: 75, opacity: 0 }}
@@ -18,7 +18,7 @@ const LinksVisit = () => {
         transition={{ type: "spring", delay: 0.1 }}
         onClick={() => {
           window.location.href =
-            "https://www.facebook.com/profile.php?id=61556661787474&mibextid=kFxxJD";
+            "https://mail.google.com/mail/?view=cm&fs=1&to=mgmt.afa@gmail.com";
         }}
       >
         <SiGmail />
