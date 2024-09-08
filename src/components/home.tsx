@@ -6,7 +6,7 @@ const Home = () => {
         className="h-[700px] w-full bg-blue-100 flex justify-center items-center p-4 overflow-hidden">
 
           <div className="relative mb-5 flex items-center justify-center border-[16px] border-blue-200
-                          rounded-full h-[400px] w-[400px] md:h-[600px] md:w-[600px]">
+                          rounded-full h-[300px] w-[300px] md:h-[600px] md:w-[600px]">
                             <motion.div 
                             initial={{
                               translateX: '100%',

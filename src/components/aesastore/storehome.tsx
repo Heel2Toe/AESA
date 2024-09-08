@@ -10,8 +10,8 @@ const navbarProps = [
 const StoreHome = () => {
 
     return ( 
-        <div className="relative min-h-[600px] w-full bg-[#244F67] flex flex-col sm:flex-row px-6 py-4 justify-start sm:justify-between items-center overflow-hidden">
-      <div className="absolute z-absolute h-[180%] w-20 bg-cyan-800 -rotate-45"/>
+        <div className="relative min-h-[700px] sm:min-h-[600px] w-full bg-[#244F67] flex flex-col sm:flex-row px-6 py-4 justify-start sm:justify-between items-center overflow-hidden">
+      <div className="absolute z-absolute h-[180%] translate-x-14 w-20 bg-cyan-800 -rotate-45"/>
            <StoreNav page='store' elements={navbarProps}/>
      <div className="sm:w-[600px] flex flex-col space-y-4 z-10 text-white mt-20 p-7 sm:mt-0">
         <h1 className="sporty-font text-4xl sm:text-7xl [@media(min-width:1024px)]:text-8xl lg:text-9xl">AESA STORE</h1>
