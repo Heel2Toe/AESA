@@ -30,7 +30,7 @@ const Contact = () => {
   }
 
   return (
-    <div id="contact" className="w-full min-h-[400px] bg-gray-900 flex justify-between items-center p-6 overflow-hidden">
+    <div id="contact" className="w-full h-[400px] bg-gray-900 flex justify-between items-center p-6 overflow-hidden">
 
       <div className="flex flex-col space-y-6">
         <h1 className="font-extrabold text-3xl sm:text-4xl text-white">
